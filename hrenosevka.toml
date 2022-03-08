@@ -1,0 +1,24 @@
+[buildPlans.hrenosevka]
+family = "Hrenosevka"
+spacing = "fixed"
+serifs = "sans"
+no-cv-ss = true
+
+  [buildPlans.hrenosevka.variants]
+  inherits = "ss03"
+
+    [buildPlans.hrenosevka.variants.design]
+    l = "hooky-bottom"
+    one = "no-base-long-top-serif"
+    three = "flat-top"
+    four = "semi-open"
+    five = "oblique-upper-left-bar"
+    six = "open-contour"
+    seven = "bend-crossbar-serifed"
+    nine = "open-contour"
+    asterisk = "flip-penta-low"
+    number-sign = "upright"
+    percent = "rings-continuous-slash"
+    lig-ltgteq = "flat"
+    ascii-single-quote = "straight"
+    question = "smooth"
